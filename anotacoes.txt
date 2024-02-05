@@ -1,0 +1,22 @@
+// hash       
+// privatekey 013eae2185ca273c46e489bb2075181c9b75b86b
+// publickey  70607119c2e3e016d3231068614d64b4
+
+ts+privateKey+publicKey
+
+https://www.md5hashgenerator.com/
+https://developer.marvel.com/documentation/authorization
+
+
+
+ts = new Date().toLocalString('pt-br',{timeZone:'UTC'});
+
+
+const apikey = '70607119c2e3e016d3231068614d64b4';
+const ts = '05/02/2024, 12:48:59';
+const hash = '068c85c4a834b4a176ff455eacfbb478';
+const url = `https://gateway.marvel.com:443/v1/public/characters?apikey=${apikey}&ts=${ts}&hash=${hash}`
+
+
+fetch(url)
+
